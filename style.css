@@ -1,0 +1,55 @@
+:root{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    display: grid;
+    grid-template-rows: 1fr 7fr 0.5fr;
+    height:100vh;
+}
+.header{
+    background-color: #c84648;
+    color:#e7e4d5;
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 5px;
+}
+.main{
+    background-color: #e7e4d5;
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: 1fr 6fr 1fr;
+}
+.footer{
+    background-color: #703e3b;
+    color: #e7e4d5;
+    text-align: center;
+    font-size: larger;
+}
+.cards-holder{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.add-holder{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 60px;
+      height: 60px;
+      background-color: rgb(5, 92, 233);
+      border-radius: 50%; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 48px;
+      font-weight: bolder;
+      
+}
