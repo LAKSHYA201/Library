@@ -32,6 +32,9 @@ body{
 .cards-holder{
     grid-column: 2/3;
     grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
 }
 .add-holder{
     grid-column: 2/3;
@@ -51,5 +54,50 @@ body{
       color: white;
       font-size: 48px;
       font-weight: bolder;
-      
+}
+.cardStyle{
+    height: 0.5fr;
+    width: 0.33fr;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-column: auto;
+    grid-row: auto;
+}
+dialog{
+    height:40vh;
+    width: 20vw;
+}
+form{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    gap: 40px;
+    font-size: larger;
+    
+}
+.add{
+    width:250px;
+    height:60px;
+    border-radius: 15px;
+    justify-self: center;
+    font-size: x-large;
+    background-color:rgb(5, 92, 233) ;
+    color: white;
+}
+input[type="text"],input[type="number"]{
+    font-size: larger;
+}
+
+.divMain{
+    background-color:hsl(358, 100%, 80%);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+    font-size: x-large;
+    padding:10px;
+    
+}
+.read{
+height: 100px;
+width: 100px;
+justify-self: center;
 }

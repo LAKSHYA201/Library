@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="library.js" defer></script>
     <link rel="icon" href="./images/biography.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +19,20 @@
             <div class="add-holder"><button class="btn">+</button></div>
         </div>
         <div class="footer"><pre>Made by - LAKSHYA201</pre></div>
+        <dialog>
+            <form method="dialog">
+                
+                    <legend>Add a New Book</legend>
+                   <div><label for="bookName">Book Name : </label>
+                    <input type="text" name="bookName" id="bookName"></div>
+                    <div><label for="bookAuthor">Author Name:</label>
+                    <input type="text" name="bookAuthor" id="bookAuthor"></div>
+                    <div><label for="pages">No. of Pages : </label>
+                    <input type="number" name="pages" id="pages" min="0"></div>
+                    <button type="button" class="add">Add !</button>
+                
+            </form>
+        </dialog>
     </div>
 </body>
 </html>
